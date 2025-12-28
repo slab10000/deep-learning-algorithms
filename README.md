@@ -18,7 +18,8 @@ Here is an overview of what has been implemented so far:
   - Location: `GANs/CGANs.ipynb`
 
 ### 📈 Classification & Regression
-Try it here: https://slab10000.github.io/deep-learning-algorithms/classification-and-regression/
+Try it here: https://slab10000.github.io/deep-learning-algorithms/classification-and-regression
+
 Applied machine learning projects covering both classification and regression tasks.
 
 - **Classification - Petfinder Dataset**: 
