@@ -43,6 +43,22 @@ Applied machine learning projects covering both classification and regression ta
   - **Key Results**: The NIO algorithm identified that a mid-range budget (~$110M) with high star power and specific genre combinations yields optimal ROI (9.09x) while maintaining critical acclaim
   - Location: `NIO/`
 
+### 🖼️ Convolutional Neural Networks (CNNs) - Shape Classification
+- **Geometric Shape Classifier**:
+  - A CNN-based image classification project that identifies geometric shapes by counting their number of sides (Triangles: 3, Squares: 4, Pentagons: 5, Hexagons: 6).
+  - **Dataset**: 10,000 images of geometric shapes (128×128 pixels, resized to 64×64 for training) with corresponding labels in CSV format
+  - **Model Architecture**: "ShapeClassifier" CNN with:
+    - 3 convolutional layers (16 → 32 → 64 channels) with ReLU activation and MaxPooling
+    - Fully connected layers (128 hidden units) with dropout (0.5) for regularization
+    - 4-class output layer for shape classification
+  - **Training**: 20 epochs with batch size 64, CrossEntropyLoss, Adam optimizer, GPU-accelerated
+  - **Performance**: Achieved excellent results with:
+    - Precision: 0.971
+    - Recall: 0.971
+    - F1 Score: 0.971
+  - **Custom Dataset**: Implemented `ShapesDataset` class for loading images and mapping side counts to class indices
+  - Location: `CNN/`
+
 ### 🔢 Tensor Operations
 Foundational notebooks for understanding data manipulation and tensor math.
 
@@ -61,7 +77,7 @@ Foundational notebooks for understanding data manipulation and tensor math.
 ## 🚧 Status
 
 This project is in a **Work-In-Progress** state. I am constantly learning and adding new implementations, including but not limited to:
-- Computer Vision models (CNNs, ViTs)
+- Computer Vision models (ViTs, more advanced CNNs)
 - NLP architectures (Transformers, RNNs)
 - Reinforcement Learning algorithms
 - More advanced GAN architectures
