@@ -32,6 +32,17 @@ Applied machine learning projects covering both classification and regression ta
   - Utilizes XGBoost (Extreme Gradient Boosting) and includes the serialized model (`xgboost_songs_model.onnx`).
   - Location: `classification-and-regression/regression/`
 
+### 🎬 Neural Input Optimization (NIO) - Movie Optimization
+- **Project Blockbuster: NIO Optimisation for Movies**:
+  - A project that uses Neural Input Optimization (NIO) to reverse-engineer the optimal movie blueprint for maximizing both commercial success (Gross Revenue) and critical acclaim (IMDB Score).
+  - **Dataset**: IMDB 5000 Movie Dataset from Kaggle (~5000 movies, 28 features)
+  - **Model Architecture**: Residual Neural Network (ResNet) implemented in PyTorch with residual connections and dropout regularization
+  - **Optimization Goal**: Find optimal movie characteristics (Budget, Cast, Genre) that maximize Return on Investment (ROI = Gross/Budget) while maintaining:
+    - IMDB Score between 9.0 and 10.0
+    - Budget between $20M and $200M
+  - **Key Results**: The NIO algorithm identified that a mid-range budget (~$110M) with high star power and specific genre combinations yields optimal ROI (9.09x) while maintaining critical acclaim
+  - Location: `NIO/`
+
 ### 🔢 Tensor Operations
 Foundational notebooks for understanding data manipulation and tensor math.
 
