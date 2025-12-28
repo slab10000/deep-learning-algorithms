@@ -1,0 +1,8 @@
+
+.vscode/settings.json
+
+.DS_Store
+
+GANs/MNISTdata/MNIST/raw/
+
+venv/
